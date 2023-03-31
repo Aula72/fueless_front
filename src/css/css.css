@@ -1,0 +1,11 @@
+body{
+	margin: 10px;
+	background-color: #556bbff;
+}
+#main{
+	color: #ee5500;
+	font-size: 50px;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
