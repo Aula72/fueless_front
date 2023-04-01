@@ -1,0 +1,2 @@
+define(["exports","preact/jsx-runtime",'module',"./utils/UNSAFE_mergeInterpolations"],function(n,t,o,i){"use strict";const r={orientation:{horizontal:"_5mnwdc"}},a=[({orientation:n="horizontal"})=>({class:r.orientation[n]})],e=i.mergeInterpolations(a);n.Divider=function(){const{class:n}=e({orientation:"horizontal"});return t.jsx("span",{class:n,role:"separator","aria-orientation":"horizontal"})}});
+//# sourceMappingURL=Divider-9f2d3a19.js.map
