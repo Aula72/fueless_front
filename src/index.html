@@ -27,7 +27,7 @@
   ***************************** IMPORTANT INFORMATION ************************************ -->
 <html lang="en-us">
   <head>
-    <title>Oracle JET Starter Template - Web Nav Drawer</title>
+    <title>Welcome to Fueless</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1">
@@ -98,8 +98,9 @@
               <span role="img" class="oj-icon demo-oracle-icon" title="Oracle Logo" alt="Oracle Logo"></span>
               <h1 class="oj-sm-only-hide oj-web-applayout-header-title" title="Application Name"><oj-bind-text value="[[appName]]"></oj-bind-text></h1>
             </div>
-            <div class="oj-flex-bar-end">
-              <!-- Responsive Toolbar -->
+            <!-- Responsive Toolbar -->
+            <!-- <div class="oj-flex-bar-end">
+              
               <oj-toolbar>
                 <oj-menu-button id="userMenu" display="[[smScreen() ? 'icons' : 'all']]" chroming="borderless">
                   <span><oj-bind-text value="[[userLogin]]"></oj-bind-text></span>
@@ -112,16 +113,16 @@
                   </oj-menu>
                 </oj-menu-button>
               </oj-toolbar>
-            </div>
+            </div> -->
           </div>
-          <div role="navigation" class="oj-web-applayout-max-width oj-web-applayout-navbar">
+          <!-- <div role="navigation" class="oj-web-applayout-max-width oj-web-applayout-navbar">
             <oj-navigation-list id="navTabBar" class="oj-sm-only-hide oj-md-condense oj-md-justify-content-flex-end"
                                 data="[[navDataProvider]]"
                                 edge="top"
                                 item.renderer="[[KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
                                 selection="{{selection.path}}">
             </oj-navigation-list>
-          </div>
+          </div> -->
         </header>
         <oj-module role="main" class="oj-web-applayout-max-width oj-web-applayout-content" config="[[moduleAdapter.koObservableConfig]]">
         </oj-module>
